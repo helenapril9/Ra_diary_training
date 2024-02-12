@@ -1,0 +1,81 @@
+.input_all {
+    display: flex;  
+    width: 100%;    
+    margin: 0.5em;
+}
+
+.date_input {
+  margin: 0.5em;
+  display: block;  
+  height: calc(1.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;  
+  border: 3px solid #bdbdbd;
+  border-radius: 0.25rem;
+  text-align: center;
+      
+}
+.title {
+    display: flex;  
+    box-sizing: border-box;    
+}
+
+button {
+    width: 100px;
+    margin-top: 2.2em;
+    padding: 0.2em 0.75rem;
+    height: 35px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 0.25rem;    
+}
+
+ul {
+    border: '1px solid black';
+    padding: '10px'; 
+}
+
+.action {
+    display: flex;            
+    
+}
+.title-item {
+    
+    height: calc(1.25rem + 2px);
+    padding: 0.375rem;
+    margin: 5px 50px 5px 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+.Item_value {
+    display: flex;          
+    margin: 0px 60px 0px 10px;
+    text-align: center;      
+}
+    
+li {
+    list-style-type: none;
+    display:block;    
+    text-align: center;    
+    margin: 1px;
+}
+.delete {
+    width: 20px;
+    margin-top: 1px;
+    margin-left: 100px;
+    padding: 0.05em;
+    height: 20px;
+    box-sizing: border-box;    
+    border-radius: 0.25rem;   
+
+}
+
